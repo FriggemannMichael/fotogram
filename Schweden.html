@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Schweden Fotogalerie - Entdecke endlose Wälder, kristallklare Seen und die Magie der Polarlichter. Professionelle Naturfotografie aus Schweden von Michael Friggemann." />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/gallery.css" />
+    <link rel="shortcut icon" href="assets/img/favicon.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <title>Fotogram - Schweden Galerie</title>
+  </head>
+  <body>
+
+    <div class="background-container" aria-hidden="true">
+      <div class="background-image active"></div>
+      <div class="background-image"></div>
+    </div>
+
+    <header class="site-header" role="banner">
+      <div class="content-container">
+        <div class="logo-container">
+          <a href="index.html" aria-label="Zurück zur Fotogram Startseite">
+            <img 
+              src="assets/img/Fotogram_Logo.svg" 
+              alt="Fotogram Logo" 
+              class="logo"
+              role="img"
+            />
+          </a>
+          <h1 class="logo-text">by Michael Friggemann</h1>
+        </div>
+        <nav class="nav-back" role="navigation" aria-label="Hauptnavigation">
+          <a 
+            href="index.html" 
+            class="back-link"
+            role="button"
+            aria-label="Zurück zur Übersicht aller Fotogalerien"
+          >
+            <span class="material-symbols-outlined" aria-hidden="true">arrow_back</span>
+            Zurück
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <div class="content-container">
+      <main class="gallery-container" role="main">
+        <h1 class="gallery-title" id="gallery-title">Schweden</h1>
+        <div 
+          id="gallery" 
+          class="gallery-grid"
+          role="region"
+          aria-labelledby="gallery-title"
+          aria-label="Schweden Fotogalerie mit clickbaren Bildern"
+        ></div>
+      </main>
+    </div>
+
+
+    <div 
+      id="lightbox" 
+      class="lightbox"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="lightbox-title"
+      aria-describedby="lightbox-description"
+      aria-hidden="true"
+      tabindex="-1"
+    >
+      
+
+      <button 
+        class="lightbox-close" 
+        onclick="closeLightbox()"
+        aria-label="Lightbox schließen"
+        role="button"
+        tabindex="0"
+      >
+        <span class="material-symbols-outlined" aria-hidden="true">close</span>
+      </button>
+
+      <div class="lightbox-content">
+
+        <img 
+          id="lightbox-img" 
+          src="#" 
+          alt=""
+          role="img"
+          aria-describedby="lightbox-description"
+        />
+
+
+        <div class="lightbox-controls" role="group" aria-label="Bildnavigation">
+          <button 
+            class="lightbox-prev" 
+            onclick="navigateLightbox(-1)"
+            aria-label="Vorheriges Bild anzeigen"
+            role="button"
+            tabindex="0"
+          >
+            <span class="material-symbols-outlined" aria-hidden="true">chevron_left</span>
+          </button>
+
+          <button 
+            class="lightbox-next" 
+            onclick="navigateLightbox(1)"
+            aria-label="Nächstes Bild anzeigen"
+            role="button"
+            tabindex="0"
+          >
+            <span class="material-symbols-outlined" aria-hidden="true">chevron_right</span>
+          </button>
+        </div>
+
+        <div class="lightbox-caption" role="region" aria-label="Bildinformationen">
+          <h2 id="lightbox-title">Titel</h2>
+          <p id="lightbox-description">Beschreibung</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div 
+      id="sr-announcements" 
+      aria-live="polite" 
+      aria-atomic="true"
+      class="sr-only"
+      style="position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden;"
+    ></div>
+
+    <script src="gallery.js"></script>
+    <script>
+      initGallery("schweden");
+    </script>
+  </body>
+</html>

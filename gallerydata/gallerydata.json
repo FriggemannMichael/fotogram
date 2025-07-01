@@ -1,0 +1,182 @@
+{
+    "schweden": {
+        "images": [
+            {
+                "src": "assets/img/schweden/img1.jpg",
+                "title": "Aurora Borealis",
+                "description": "Magische Nordlichter tanzen in Grün und Violett"
+            },
+            {
+                "src": "assets/img/schweden/img2.jpg",
+                "title": "Morgennebel am See",
+                "description": "Mystischer Nebel schwebt über spiegelglattem Waldsee"
+            },
+            {
+                "src": "assets/img/schweden/img3.jpg",
+                "title": "Wintermärchen in Dalarna",
+                "description": "Rotes Schwedenhaus unter verschneiten Birken"
+            },
+            {
+                "src": "assets/img/schweden/img4.jpg",
+                "title": "Polarlichter über Lappland",
+                "description": "Grüne Lichtvorhänge über verschneiter Winterlandschaft"
+            },
+            {
+                "src": "assets/img/schweden/img5.jpg",
+                "title": "Abisko Canyon",
+                "description": "Türkisblaues Gletscherwasser durchschneidet winterliche Felsenschlucht"
+            },
+            {
+                "src": "assets/img/schweden/img6.jpg",
+                "title": "Kungsleden Bergwelt",
+                "description": "Unberührte Bergseen in Schwedens arktischer Wildnis"
+            },
+            {
+                "src": "assets/img/schweden/img7.jpg",
+                "title": "Småland Idylle",
+                "description": "Traditionelles rotes Holzhaus mit weißen Akzenten"
+            },
+            {
+                "src": "assets/img/schweden/img8.jpg",
+                "title": "Schwanensee",
+                "description": "Elegante Schwäne im goldenen Licht der Abendsonne"
+            },
+            {
+                "src": "assets/img/schweden/img9.jpg",
+                "title": "Winterfluss in Norrland",
+                "description": "Schneebedeckte Steine säumen den eisigen Waldfluss"
+            }
+        ],
+        "backgrounds": [
+            "assets/img/schweden/img1.jpg",
+            "assets/img/schweden/img2.jpg",
+            "assets/img/schweden/img3.jpg",
+            "assets/img/schweden/img4.jpg",
+            "assets/img/schweden/img5.jpg",
+            "assets/img/schweden/img6.jpg",
+            "assets/img/schweden/img7.jpg",
+            "assets/img/schweden/img8.jpg",
+            "assets/img/schweden/img9.jpg"
+        ]
+    },
+    "norwegen": {
+        "images": [
+            {
+                "src": "assets/img/norwegen/img1.jpg",
+                "title": "Trollstigen Serpentinen",
+                "description": "Spektakuläre Bergstraße mit elf Haarnadelkurven"
+            },
+            {
+                "src": "assets/img/norwegen/img2.jpg",
+                "title": "Gletscherfluss",
+                "description": "Türkisblaues Schmelzwasser rauscht durch norwegische Bergwelt"
+            },
+            {
+                "src": "assets/img/norwegen/img3.jpg",
+                "title": "Fjordpanorama",
+                "description": "Majestätische Berge spiegeln sich im stillen Fjord"
+            },
+            {
+                "src": "assets/img/norwegen/img4.jpg",
+                "title": "Elche im Morgentau",
+                "description": "Königliche Waldbewohner grasen auf nebelverhangener Wiese"
+            },
+            {
+                "src": "assets/img/norwegen/img5.jpg",
+                "title": "Ålesund Abendstimmung",
+                "description": "Jugendstilstadt leuchtet im warmen Licht der Abendsonne"
+            },
+            {
+                "src": "assets/img/norwegen/img6.jpg",
+                "title": "Schärenküste",
+                "description": "Dramatische Felsformationen treffen auf wildes Nordmeer"
+            },
+            {
+                "src": "assets/img/norwegen/img7.jpg",
+                "title": "Hardangervidda Hochebene",
+                "description": "Endlose Weite unter dramatischem Wolkenhimmel"
+            },
+            {
+                "src": "assets/img/norwegen/img8.jpg",
+                "title": "Arktischer Fischfang",
+                "description": "Trawler vor schneebedeckten Bergen im goldenen Licht"
+            },
+            {
+                "src": "assets/img/norwegen/img9.jpg",
+                "title": "Lysefjord Lichtstrahlen",
+                "description": "Göttliches Licht durchbricht Wolken über tiefem Fjord"
+            }
+        ],
+        "backgrounds": [
+            "assets/img/norwegen/img1.jpg",
+            "assets/img/norwegen/img2.jpg",
+            "assets/img/norwegen/img3.jpg",
+            "assets/img/norwegen/img4.jpg",
+            "assets/img/norwegen/img5.jpg",
+            "assets/img/norwegen/img6.jpg",
+            "assets/img/norwegen/img7.jpg",
+            "assets/img/norwegen/img8.jpg",
+            "assets/img/norwegen/img9.jpg"
+        ]
+    },
+    "iceland": {
+        "images": [
+            {
+                "src": "assets/img/iceland/img1.jpg",
+                "title": "Gatklettur Felsenbogen",
+                "description": "Natürliches Felsentor an Islands dramatischer Küste"
+            },
+            {
+                "src": "assets/img/iceland/img2.jpg",
+                "title": "Gletscherwand",
+                "description": "Beeindruckende blaue Eisformation eines isländischen Gletschers"
+            },
+            {
+                "src": "assets/img/iceland/img3.jpg",
+                "title": "Strokkur Geysir",
+                "description": "Spektakuläre Eruption im goldenen Licht der Abendsonne"
+            },
+            {
+                "src": "assets/img/iceland/img4.jpg",
+                "title": "Moosfluss im Hochland",
+                "description": "Grüner Bach schlängelt sich durch schwarze Lavafelder"
+            },
+            {
+                "src": "assets/img/iceland/img5.jpg",
+                "title": "Jökulsárlón Sonnenuntergang",
+                "description": "Treibende Eisberge im goldenen Licht der Gletscherlagune"
+            },
+            {
+                "src": "assets/img/iceland/img6.jpg",
+                "title": "Magischer Abendhimmel",
+                "description": "Violette Wolken spiegeln sich im stillen Gewässer"
+            },
+            {
+                "src": "assets/img/iceland/img7.jpg",
+                "title": "Þingvellir Silfra",
+                "description": "Kristallklares Gletscherwasser zwischen tektonischen Platten"
+            },
+            {
+                "src": "assets/img/iceland/img8.jpg",
+                "title": "Ring Road Endlosigkeit",
+                "description": "Islands berühmte Ringstraße durch vulkanische Mondlandschaft"
+            },
+            {
+                "src": "assets/img/iceland/img9.jpg",
+                "title": "Lóndrangar Basaltklippen",
+                "description": "Dramatische Vulkanfelsen ragen aus dem Atlantik empor"
+            }
+        ],
+        "backgrounds": [
+            "assets/img/iceland/img1.jpg",
+            "assets/img/iceland/img2.jpg",
+            "assets/img/iceland/img3.jpg",
+            "assets/img/iceland/img4.jpg",
+            "assets/img/iceland/img5.jpg",
+            "assets/img/iceland/img6.jpg",
+            "assets/img/iceland/img7.jpg",
+            "assets/img/iceland/img8.jpg",
+            "assets/img/iceland/img9.jpg"
+        ]
+    }
+}
